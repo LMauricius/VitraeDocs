@@ -34,7 +34,7 @@ block-beta
     classDef daStyle fill:ghostwhite,fill-opacity:0.15,stroke:gray,stroke-dasharray:9;
 ```
 
-In that case we would need 3 `RenderTarget`s, one for each `DrawRegion`:
+In that case we would need 3 `DrawRegions`s, one for each composition:
 ```mermaid
 graph TB
     F[Canvas]:::canvasStyle
