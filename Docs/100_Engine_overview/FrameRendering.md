@@ -12,7 +12,7 @@ This among the others contains the image that will be shown to the player.
 A `DrawRegion` describes which part of a frame we will draw on.
 Imagine split-screen games - they have multiple `DrawRegion`s.
 
-This is often used to repeat the same composition (a sequence of `ComposeTask`s)
+This is often used to repeat the same composition (a sequence of `ComposeMethod`s)
 on multiple parts of the `Canvas` while adjusting a small number of parameters and values.
 So multiple compositions can use the same `Canvas`,
 and multiple compositions can use the same `DrawRegion`,

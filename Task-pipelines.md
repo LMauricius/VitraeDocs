@@ -36,7 +36,7 @@ Currently there are two kinds of pipelines:
 Both are based on `AbstractTask` pipelines, and support properties of similar types, but differ on their basic task type. 
  
 - Shading:
-    - Basic task: ShaderTask
+    - Basic task: ShaderMethod
     - Primitive tasks:
         - ShaderSnippet
         - ShaderLoop
@@ -47,7 +47,7 @@ Both are based on `AbstractTask` pipelines, and support properties of similar ty
         - `shade` - The color of a pixel in the fragment method of a SurfaceShader
         - `computed_data` - Output data of a ComputeShader
 - Rendering:
-    - Basic task: ComposeTask
+    - Basic task: ComposeMethod
     - Primitive tasks:
         - ComposeSceneRender
         - ComposeFunction
